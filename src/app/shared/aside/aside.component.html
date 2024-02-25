@@ -1,0 +1,41 @@
+
+<aside  >
+<div class="imgLogo">
+  <a class="navbar-brand" href="#">
+    <img src="../../../assets/images/Logo Design.svg" alt="">
+ </a>
+</div>
+  <ul
+    class="nav nav-pills flex-md-column mb-auto pt-5 justify-content-sm-between justify-content-end"
+  >
+    <li class="aside-item">
+      <a href="#" class="nav-link link-body-emphasis"
+        ><i class="bi bi-grid  "></i> <span>{{'dashboard'|translate}}</span>
+      </a>
+    </li>
+    <li class="aside-item">
+      <a href="#" class="nav-link link-body-emphasis">
+        <i class="bi bi-folder2-open  "></i> <span>{{'projects'|translate}}</span>
+      </a>
+    </li>
+    <li class="aside-item">
+      <a routerLink="/tasks" class="nav-link active"
+        ><i class="bi bi-card-checklist  "></i> <span>{{'tasks'|translate}}</span>
+      </a>
+    </li>
+    <li class="aside-item">
+      <a href="#" class="nav-link link-body-emphasis">
+        <i class="bi bi-calendar2-check  "></i> <span>{{'calender'|translate}}</span>
+      </a>
+    </li>
+   
+  </ul>
+   <span class="nav-pills">
+    <button
+      (click)="signOut()"
+      class="btn  col-12 d-md-block d-none logout"
+    >
+      <i class="bi bi-box-arrow-left"></i>  {{'logout'|translate}}
+    </button>
+  </span>
+</aside>

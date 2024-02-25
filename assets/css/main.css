@@ -1,0 +1,67 @@
+/* Navbar */
+body {    font-family: "Poppins", sans-serif !important;}
+
+nav form[role="search"] {
+    position: relative;
+  }
+  nav .searchBtn {
+    position: absolute;
+    right: 10px;
+  }
+  nav .dropdown-menu[data-bs-popper] {
+    right: 0;
+    left: auto;
+  }
+  /* aside */
+  aside {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 300px;
+  }
+  aside .nav-link {
+    background-color: rgba(0, 90, 255, 0.1);
+  }
+  aside .logout {
+    background-color: #facecb;
+    color: #9b1c11 !important;
+    padding: 0.5rem 1rem;
+  }
+  /* Task page */
+  .to-do {
+    background-color: rgba(0, 90, 255, 0.2);
+  }
+  .to-do h5 {
+    color: rgb(0, 44, 126);
+  }
+  .in-progress {
+    background-color: rgba(255, 201, 5, 0.2);
+  }
+  .in-progress h5 {
+    color: rgb(105, 82, 0);
+  }
+  .done {
+    background-color: #fef2f1;
+  }
+  .done h5 {
+    color: rgb(87, 33, 28);
+  }
+  /* login Page */
+  
+  @media (max-width: 992px) {
+    aside {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    aside {
+      width: 100%;
+      position: static;
+      left: 0;
+      bottom: 0;
+      height: auto;
+    }
+  }
+  

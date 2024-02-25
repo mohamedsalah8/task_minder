@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mohamed",
+      "email": "admin@admin.com",
+      "password": "123123",
+      "img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg"
+    },
+    {
+      "email": "admin2@admin.com",
+      "password": "123123",
+      "name": "Mohamed",
+      "img": "https://cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png",
+      "id": "2"
+    },
+    {
+      "id": "6aed",
+      "email": "",
+      "password": "",
+      "name": "",
+      "img": ""
+    },
+    {
+      "id": "0fae",
+      "email": "Mohamed@admin.com",
+      "password": "123456",
+      "name": "Mohamed",
+      "img": "https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=826&t=st=1708642095~exp=1708642695~hmac=2a403c1b98dd8d78dfd8c20d73fb9cd015c36fe0b32582c2098a557d15629451"
+    },
+    {
+      "id": "b72a",
+      "email": "ddd@gmail.com",
+      "password": "123456",
+      "name": "eeee",
+      "img": "https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=826&t=st=1708642095~exp=1708642695~hmac=2a403c1b98dd8d78dfd8c20d73fb9cd015c36fe0b32582c2098a557d15629451"
+    },
+    {
+      "id": "5a4f",
+      "email": "Mohamed@admin.com",
+      "password": "123456",
+      "name": "Mohamed",
+      "img": "https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=826&t=st=1708642095~exp=1708642695~hmac=2a403c1b98dd8d78dfd8c20d73fb9cd015c36fe0b32582c2098a557d15629451"
+    },
+    {
+      "id": "b27d",
+      "email": "Mohamed@admin.com",
+      "password": "123456",
+      "name": "",
+      "img": ""
+    },
+    {
+      "id": "fdd3",
+      "email": "Mohamedss@admin.com",
+      "password": "12345678",
+      "name": "sssss",
+      "img": "C:\\fakepath\\289d63d1-40f2-436a-aa3f-4f7d9e3bf3b6.jpg"
+    },
+    {
+      "id": "b678",
+      "email": "Mohamed@admin.co",
+      "password": "13456",
+      "name": "Mohamed",
+      "img": "C:\\fakepath\\0c8a962aa5.jpeg"
+    },
+    {
+      "id": "5e25",
+      "email": "Mohamed@admin.co",
+      "password": "123456",
+      "name": "Mohamed",
+      "img": "C:\\fakepath\\clipboard-portrait-delivery-guy-with-box-studio-safe-transport-ecommerce-supplier-product-package-logistics-happy-courier-man-white-background-online-sales-services.jpg"
+    },
+    {
+      "id": "3150",
+      "email": "mosalah8817@gmail.com",
+      "password": "123456",
+      "name": "mohamed salah",
+      "img": "https://angular.io/assets/images/logos/angular/logo-nav@2x.png"
+    }
+  ],
+  "todo": [
+    {
+      "id": "2",
+      "type": "todo",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "inProgress": [
+    {
+      "id": "1",
+      "type": "inProgress",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "done": [
+    {
+      "id": "1",
+      "type": "done",
+      "user_img": "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": "89a7",
+      "user_img": "https://angular.io/assets/images/logos/angular/logo-nav@2x.png",
+      "description": "هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة ",
+      "type": "done"
+    }
+  ]
+}

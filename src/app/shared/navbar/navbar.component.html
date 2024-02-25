@@ -1,0 +1,75 @@
+<header class=" ">
+  <nav class="navbar navbar-expand-md  ">
+    <div class="container-fluid">
+
+
+      <div class="d-flex justify-content-between w-100">
+        <form class="d-flex col-lg-8 me-auto mt-md-0 mt-3" role="search">
+          <input class="form-control col-lg-12" type="search" placeholder="{{'search'|translate}}"
+            aria-label="Search" />
+          <button class="btn searchBtn fw-bold" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center   flex-row gap-2">
+          <li *ngIf="!isLogged" class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/login"> {{'login'|translate}}
+            </a>
+          </li>
+          <li *ngIf="!isLogged" class="nav-item">
+            <a class="nav-link" routerLink="/register"> {{'signup'|translate}}
+            </a>
+          </li>
+          <li *ngIf="isLogged" class="nav-item dropdown">
+            <a class="nav-link text-center dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-bell"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Notification </a></li>
+              <li><a class="dropdown-item" href="#">Notification icon </a></li>
+              <li>
+                <a class="dropdown-item" href="#">Notification icon</a>
+              </li>
+            </ul>
+          </li>
+          <li *ngIf="isLogged" class="nav-item text-center dropdown">
+            <a class="nav-link" class="nav-link text-center dropdown-toggle" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img width="44" class="rounded-circle" src="{{ userImg }}" alt="user Image" /></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a routerLink="/profile" class="dropdown-item">
+                  <i class="bi bi-person-circle"></i>
+                  <span>
+                    {{'profile'|translate}}
+                  </span>
+                </a>
+              </li>
+              <li>
+                <!-- <a href="#" class="d-flex align-items-center  dropdown-item">
+                     <img src="../../../assets/images/icon-flag-sa.svg" alt="" width="20px" height="20px"
+                      class="rounded-circle object-fit-cover round-20">
+                   <span class="mb-0 ">عربي (Arabic)</span>
+                </a> -->
+                <button class="btn" (click)="changeLanguage('en')">English</button>
+                <button class="btn" (click)="changeLanguage('ar')">العربية</button>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <a class="dropdown-item text-danger" href="#" (click)="signOut()">
+                  <i class="bi bi-box-arrow-left"></i>
+                  {{'logout'|translate}}
+
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,19 @@
+{
+    "profile": "Profil",
+    "welcome": "Welcome",
+    "dashboard": " Dashboard  ",
+    "projects": "Projects",
+    "tasks": "tasks",
+    "calender": "Calender",
+    "logout": " Logout  ",
+    "signup": " Sign Up   ", 
+    "login": " Log In  ", 
+    "to do": "To Do" ,
+    "in Progress": "In Progress" ,
+    "done": "Done"  ,
+    "newTask": " New Task  " ,
+    "search": "Search" ,
+    "addTask": "Add Task" ,
+    "close": "Close"  
+ 
+}

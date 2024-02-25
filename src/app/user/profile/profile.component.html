@@ -1,0 +1,24 @@
+<app-navbar> </app-navbar>
+
+<section id="profile">
+  <div class="ms-md-auto col-lg-10 col-md-9 pt-md-5">
+    <div class="container-fluid ms-md-auto mx-auto pt-md-5">
+      <div
+        class="tools d-flex align-items-center justify-content-center mt-md-5 mt-3 mb-3"
+      >
+        <div class="col-lg-4 col-md-6 col-10">
+          <div class="card">
+            <img src="{{ userData.img }}" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Username: {{ userData.name }}</h2>
+              <p class="card-text">Email: {{ userData.email }}</p>
+              <a routerLink="/editProfile" class="btn btn-warning"
+                >Edit Profile</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
